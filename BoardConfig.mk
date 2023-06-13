@@ -12,6 +12,8 @@ DEVICE_PATH := device/xiaomi/merlinx
 # Asserts
 TARGET_OTA_ASSERT_DEVICE := merlin,merlinx,merlin_eea,merlinnfc
 
+BUILD_BROKEN_MISSING_REQUIRED_MODULES := true
+
 # Display
 TARGET_SCREEN_DENSITY := 440
 
